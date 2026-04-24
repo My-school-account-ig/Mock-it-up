@@ -4,7 +4,11 @@
   </head>
   <body>
     <script>
-      window.location.href = "main.html"
+      window.setTimeout(redirect, 1000)
+
+      function redirect() {
+        window.location.href = "main.html"
+      }
     </script>
     <h1> Redirecting... </h1>
     <text> if it doesn't redirect you, please click </text>
